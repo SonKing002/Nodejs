@@ -33,11 +33,10 @@ function requestCallback(request,response)//고정되어있음 요청하면 응�
     {
         //이미지 파일을 읽어서 이미지를 전달한다.
         //fileSystem.reaf
-        fileSystem.readFile('./favicon.png',function(error, data)//무명함수
+        fileSystem.readFile('./SimpleServer/favicon.png',function(error, data)//무명함수
         {
             response.writeHead(200, {'content-Type':'image/png'});//header머릿말 : 포맷 맞춤
             response.end(data);//글이 아닌 이미지 데이터를 넘김
-
         });
     }
     else //우리가 모름 404 html file : 디자인 보고 코드 가져와서 사용할 수 있음

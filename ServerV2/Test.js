@@ -108,7 +108,7 @@ console.log(result2);
 let function2 = function02()
 {
     console.log('function2 is called');
-};//함수 콜 하면 그제서야 내용을 알 수 있다.
+}//함수 콜 하면 그제서야 내용을 알 수 있다.
 
 let function3 = () =>//위 함수를
 {

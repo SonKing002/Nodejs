@@ -1,0 +1,12 @@
+{
+  "name": "serverv2",
+  "version": "0.0.1",
+  "description": "simple http server for education.",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "jaehyuek",
+  "license": "ISC"
+}
